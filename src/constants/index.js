@@ -1,226 +1,177 @@
 export const myProjects = [
   {
     id: 1,
-    title: "E-commerce Platform",
+    title: "Artistic Hub – Course & Package Booking Platform",
     description:
-      "Facilitates purchases from international websites like Amazon and eBay, allowing customers to shop from these sites and have products delivered domestically.",
+      "Helping art lovers book courses and packages with ease across multiple branches.",
     subDescription: [
-      "Built a scalable application with ASP.NET Core MVC, integrating global platforms like Amazon for domestic delivery.",
-      "Implemented secure authentication and database management using ASP.NET Core Identity and Entity Framework Core.",
-      "Designed a responsive frontend with Tailwind CSS, enhancing user experience.",
-      "Added payment systems, localization, and product filtering for functionality improvements.",
+       "Built a responsive booking platform using Angular & Node.js.",
+      "Integrated backend APIs for real-time course availability.",
+      "Improved enrollment accuracy and made admin tasks faster.",
+      "Designed a clean Bootstrap interface for a smooth user experience."
     ],
     href: "",
     logo: "",
     image: "/assets/projects/accessories.jpg",
     tags: [
-      {
-        id: 1,
-        name: "C#",
-        path: "/assets/logos/csharp.svg",
-      },
-      {
-        id: 2,
-        name: ".Net",
-        path: "/assets/logos/dotnet.svg",
-      },
-      {
-        id: 3,
-        name: "Ef Core",
-        path: "/assets/logos/efcore.png",
-      },
-      {
-        id: 4,
-        name: "TailwindCSS",
-        path: "/assets/logos/tailwindcss.svg",
-      },
-    ],
+      { id: 1, name: "Angular", path: "https://angular.io/assets/images/logos/angular/angular.svg" },
+      { id: 2, name: "Node.js", path: "https://nodejs.org/static/images/logo.svg" },
+      { id: 3, name: "MySQL", path: "https://www.svgrepo.com/show/303251/mysql-logo.svg" }
+    ]
   },
   {
     id: 2,
-    title: "Authentication & Authorization System",
+    title: "Laundry Management System",
     description:
-      "A secure authentication and authorization system using Auth0 for seamless user management.",
+      "Turning laundry chaos into a few clicks for customers and admins.",
     subDescription: [
-      "Integrated Auth0 for authentication, supporting OAuth, JWT, and multi-factor authentication.",
-      "Implemented role-based access control (RBAC) for fine-grained user permissions.",
-      "Developed a React-based frontend with Tailwind CSS for a sleek user experience.",
-      "Connected to a secure SQLite database for user data storage.",
-    ],
+       "Developed with HTML, CSS, JavaScript, PHP & MySQL.",
+      "Enabled order tracking, billing, and customer details management.",
+      "Secure backend logic with CRUD operations.",
+      "Cut down manual errors and boosted efficiency."
+     ],
     href: "",
     logo: "",
     image: "/assets/projects/auth-system.jpg",
     tags: [
-      {
-        id: 1,
-        name: "Auth0",
-        path: "/assets/logos/auth0.svg",
-      },
-      {
-        id: 2,
-        name: "React",
-        path: "/assets/logos/react.svg",
-      },
-      {
-        id: 3,
-        name: "SQLite",
-        path: "/assets/logos/sqlite.svg",
-      },
-      {
-        id: 4,
-        name: "TailwindCSS",
-        path: "/assets/logos/tailwindcss.svg",
-      },
-    ],
+      { id: 1, name: "PHP", path: "https://www.php.net/images/logos/php-logo.svg" },
+      { id: 2, name: "JavaScript", path: "https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png" },
+      { id: 3, name: "HTML5", path: "https://upload.wikimedia.org/wikipedia/commons/6/61/HTML5_logo_and_wordmark.svg" },
+      { id: 4, name: "MySQL", path: "https://www.svgrepo.com/show/303251/mysql-logo.svg" }
+    ]
   },
   {
     id: 3,
-    title: "Blazor Web App",
+    title: "Food on Track – Food Delivery for Train Passengers",
     description:
-      "A modern, interactive web application built with Blazor WebAssembly and .NET Core.",
+      "Bringing delicious meals to passengers, right at their train seat.",
     subDescription: [
-      "Developed a fully interactive Single Page Application (SPA) using Blazor WebAssembly.",
-      "Implemented API interactions using .NET Core for a robust backend.",
-      "Designed responsive UI components with Tailwind CSS for an enhanced UX.",
-      "Integrated SQLite for efficient client-side database storage.",
-    ],
+      "Created a web-based ordering system for passengers to pre-book meals.",
+      "Integrated station-based delivery management.",
+      "Designed an easy menu selection & payment process.",
+      "Ensured smooth real-time updates for delivery staff."
+     ],
     href: "",
     logo: "",
     image: "/assets/projects/blazor-app.jpg",
-    tags: [
-      {
-        id: 1,
-        name: "Blazor",
-        path: "/assets/logos/blazor.svg",
-      },
-      {
-        id: 2,
-        name: ".NET Core",
-        path: "/assets/logos/dotnetcore.svg",
-      },
-      {
-        id: 3,
-        name: "SQLite",
-        path: "/assets/logos/sqlite.svg",
-      },
-      {
-        id: 4,
-        name: "TailwindCSS",
-        path: "/assets/logos/tailwindcss.svg",
-      },
-    ],
+   tags: [
+      { id: 1, name: "PHP", path: "https://www.php.net/images/logos/php-logo.svg" },
+      { id: 2, name: "JavaScript", path: "https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png" },
+      { id: 3, name: "HTML5", path: "https://upload.wikimedia.org/wikipedia/commons/6/61/HTML5_logo_and_wordmark.svg" },
+      { id: 4, name: "MySQL", path: "https://www.svgrepo.com/show/303251/mysql-logo.svg" }
+    ]
   },
-  {
-    id: 4,
-    title: "C++ Game Engine",
-    description:
-      "A lightweight C++ game engine designed for 2D and 3D game development.",
-    subDescription: [
-      "Built a powerful rendering engine using OpenGL and C++.",
-      "Developed a physics engine with collision detection and particle effects.",
-      "Implemented a scripting system for easy game customization.",
-      "Optimized performance with multi-threading and efficient memory management.",
-    ],
-    href: "",
-    logo: "",
-    image: "/assets/projects/game-engine.jpg",
-    tags: [
-      {
-        id: 1,
-        name: "C++",
-        path: "/assets/logos/cplusplus.svg",
-      },
-      {
-        id: 2,
-        name: "C#",
-        path: "/assets/logos/csharp.svg",
-      },
-      {
-        id: 3,
-        name: "Git",
-        path: "/assets/logos/git.svg",
-      },
-      {
-        id: 4,
-        name: "Microsoft",
-        path: "/assets/logos/microsoft.svg",
-      },
-    ],
-  },
-  {
-    id: 5,
-    title: "WordPress Custom Theme",
-    description:
-      "A fully customizable WordPress theme optimized for performance and SEO.",
-    subDescription: [
-      "Developed a responsive WordPress theme using HTML5, CSS3, and JavaScript.",
-      "Integrated Tailwind CSS for modern styling and UI enhancements.",
-      "Optimized SEO and page speed using Vite.js for fast builds.",
-      "Implemented custom widgets and plugin compatibility for extended functionality.",
-    ],
-    href: "",
-    logo: "",
-    image: "/assets/projects/wordpress-theme.jpg",
-    tags: [
-      {
-        id: 1,
-        name: "WordPress",
-        path: "/assets/logos/wordpress.svg",
-      },
-      {
-        id: 2,
-        name: "HTML5",
-        path: "/assets/logos/html5.svg",
-      },
-      {
-        id: 3,
-        name: "CSS3",
-        path: "/assets/logos/css3.svg",
-      },
-      {
-        id: 4,
-        name: "Vite.js",
-        path: "/assets/logos/vitejs.svg",
-      },
-    ],
-  },
-  {
-    id: 6,
-    title: "Online Learning Platform",
-    description:
-      "A web application that allows users to enroll in courses, watch video lectures, and take quizzes.",
-    subDescription: [
-      "Built using Blazor WebAssembly for a seamless SPA experience.",
-      "Implemented video streaming with Azure Media Services.",
-      "Added a quiz system with dynamic question generation and real-time grading.",
-      "Integrated Stripe API for secure payment processing.",
-    ],
-    href: "",
-    logo: "",
-    image: "/assets/projects/elearning.jpg",
-    tags: [
-      {
-        id: 1,
-        name: "Blazor",
-        path: "/assets/logos/blazor.svg",
-      },
-      {
-        id: 2,
-        name: "Azure",
-        path: "/assets/logos/azure.svg",
-      },
-      {
-        id: 3,
-        name: "Stripe",
-        path: "/assets/logos/stripe.svg",
-      },
-      {
-        id: 4,
-        name: "TailwindCSS",
-        path: "/assets/logos/tailwindcss.svg",
-      },
-    ],
-  },
+  // {
+  //   id: 4,
+  //   title: "C++ Game Engine",
+  //   description:
+  //     "A lightweight C++ game engine designed for 2D and 3D game development.",
+  //   subDescription: [
+  //     "Built a powerful rendering engine using OpenGL and C++.",
+  //     "Developed a physics engine with collision detection and particle effects.",
+  //     "Implemented a scripting system for easy game customization.",
+  //     "Optimized performance with multi-threading and efficient memory management.",
+  //   ],
+  //   href: "",
+  //   logo: "",
+  //   image: "/assets/projects/game-engine.jpg",
+  //   tags: [
+  //     {
+  //       id: 1,
+  //       name: "C++",
+  //       path: "/assets/logos/cplusplus.svg",
+  //     },
+  //     {
+  //       id: 2,
+  //       name: "C#",
+  //       path: "/assets/logos/csharp.svg",
+  //     },
+  //     {
+  //       id: 3,
+  //       name: "Git",
+  //       path: "/assets/logos/git.svg",
+  //     },
+  //     {
+  //       id: 4,
+  //       name: "Microsoft",
+  //       path: "/assets/logos/microsoft.svg",
+  //     },
+  //   ],
+  // },
+  // {
+  //   id: 5,
+  //   title: "WordPress Custom Theme",
+  //   description:
+  //     "A fully customizable WordPress theme optimized for performance and SEO.",
+  //   subDescription: [
+  //     "Developed a responsive WordPress theme using HTML5, CSS3, and JavaScript.",
+  //     "Integrated Tailwind CSS for modern styling and UI enhancements.",
+  //     "Optimized SEO and page speed using Vite.js for fast builds.",
+  //     "Implemented custom widgets and plugin compatibility for extended functionality.",
+  //   ],
+  //   href: "",
+  //   logo: "",
+  //   image: "/assets/projects/wordpress-theme.jpg",
+  //   tags: [
+  //     {
+  //       id: 1,
+  //       name: "WordPress",
+  //       path: "/assets/logos/wordpress.svg",
+  //     },
+  //     {
+  //       id: 2,
+  //       name: "HTML5",
+  //       path: "/assets/logos/html5.svg",
+  //     },
+  //     {
+  //       id: 3,
+  //       name: "CSS3",
+  //       path: "/assets/logos/css3.svg",
+  //     },
+  //     {
+  //       id: 4,
+  //       name: "Vite.js",
+  //       path: "/assets/logos/vitejs.svg",
+  //     },
+  //   ],
+  // },
+  // {
+  //   id: 6,
+  //   title: "Online Learning Platform",
+  //   description:
+  //     "A web application that allows users to enroll in courses, watch video lectures, and take quizzes.",
+  //   subDescription: [
+  //     "Built using Blazor WebAssembly for a seamless SPA experience.",
+  //     "Implemented video streaming with Azure Media Services.",
+  //     "Added a quiz system with dynamic question generation and real-time grading.",
+  //     "Integrated Stripe API for secure payment processing.",
+  //   ],
+  //   href: "",
+  //   logo: "",
+  //   image: "/assets/projects/elearning.jpg",
+  //   tags: [
+  //     {
+  //       id: 1,
+  //       name: "Blazor",
+  //       path: "/assets/logos/blazor.svg",
+  //     },
+  //     {
+  //       id: 2,
+  //       name: "Azure",
+  //       path: "/assets/logos/azure.svg",
+  //     },
+  //     {
+  //       id: 3,
+  //       name: "Stripe",
+  //       path: "/assets/logos/stripe.svg",
+  //     },
+  //     {
+  //       id: 4,
+  //       name: "TailwindCSS",
+  //       path: "/assets/logos/tailwindcss.svg",
+  //     },
+  //   ],
+  // },
 ];
 
 export const mySocials = [
@@ -231,98 +182,102 @@ export const mySocials = [
   },
   {
     name: "Linkedin",
-    href: "https://www.linkedin.com/in/ali-sanati/",
+    href: "https://www.linkedin.com/in/aneena-shyjan-607748320/",
     icon: "/assets/socials/linkedIn.svg",
   },
   {
+    name: "GitHub",
+    href: "https://github.com/aneenashyjan",
+    icon: "/assets/socials/instagram.svg",
+  },
+  {
     name: "Instagram",
-    href: "https://www.instagram.com/ali.sanatidev/reels/",
+    href: "https://www.instagram.com/___a_n_e_e_n_a____?igsh=c2JrYnM1cnc5bWs4",
     icon: "/assets/socials/instagram.svg",
   },
 ];
 
 export const experiences = [
   {
-    title: "Software Developer",
-    job: "Security & Defense Projects",
-    date: "2021-2023",
+    title: "Program Instructor",
+    job: "Infonix Solutions",
+    date: "2025 April – Present",
     contents: [
-      "Enhanced application security and developed new features, adhering to standards set by the Passive Defense Organization and National Cyberspace Center.",
-      "Designed and implemented intuitive map interfaces using MapsUI, enhancing user experience and enabling seamless interactive map integration.",
-      "Developed applications for industrial automation, leveraging C++ and the Fatek API for PLC communication.",
-      "Enhanced responsiveness and usability of applications using Windows Forms and WPF frameworks.",
-      "Executed XML to SVG conversions using X-DOM, ensuring dynamic and efficient data visualization.",
-    ],
+      "Teaching PHP, Angular, React and MySQL to students, focusing on web application development best practices.",
+      "Guiding students in building academic and real-time projects with proper backend integration.",
+      "Providing debugging assistance and mentoring in UI/UX planning."
+    ]
   },
   {
-    title: "Back-End Developer",
-    job: "Car Manufacture",
-    date: "2023-2024",
+    title: "Bachelor of Computer Applications (BCA)",
+    job: "Santhigiri College of Computer Sciences, Idukki",
+    date: "2022 – 2025",
     contents: [
-      "Engineered systems for large-scale data ingestion and analysis, ensuring efficient data processing and storage.",
-      "Developed back-end systems enabling vehicle-to-cloud communication for telemetry, diagnostics, and remote control:",
-      "✅ Implemented secure APIs, following ISO 26262 automotive safety standards.",
-      "✅ Ensured data privacy for customers and partners through industry-compliant protocols.",
-      "✅ Delivered remote features like over-the-air updates, real-time tracking, and remote start capabilities.",
-    ],
+      "CGPA: 8.46 / 10.",
+      "Focused on full-stack web development, database design, and software testing.",
+      "Built key academic projects such as Artistic Hub, Laundry Management System, and Food on Track."
+    ]
   },
   {
-    title: "Freelance Developer",
-    job: "Self-Employed",
-    date: "2025-Present",
+    title: "Higher Secondary Education",
+    job: "Vimala Matha HSS, Kadalikadu",
+    date: "2020 – 2022",
     contents: [
-      "Created a personal portfolio using Three.js, React, Vite, and WebAPI to showcase technical expertise.",
-      "Continuously enhancing technical skills and expanding expertise in modern web development and back-end technologies.",
-    ],
+      "Percentage: 91%",
+      "Completed Higher Secondary Education with excellent academic performance."
+    ]
   },
+  {
+    title: "High School (SSLC)",
+    job: "Vimala Matha HSS, Kadalikadu",
+    date: "2019 – 2020",
+    contents: [
+      "Percentage: 87%",
+      "Gained a strong academic foundation and discipline, preparing for future studies."
+    ]
+  }
 ];
+
 export const reviews = [
   {
-    name: "Jack",
-    username: "@jack",
-    body: "I've never seen anything like this before. It's amazing. I love it.",
+    name: "NPTEL Certification",
+    username: "Joy of Computing using Python",
+    body: "Completed a 12-week NPTEL course covering Python fundamentals and problem-solving.",
     img: "https://robohash.org/jack",
+    certificateImg: "/assets/certificates/nptel-python.jpg"
   },
   {
-    name: "Jill",
-    username: "@jill",
-    body: "I don't know what to say. I'm speechless. This is amazing.",
+    name: "Core Python Tkinter",
+    username: "Santhisoft Technologies",
+    body: "Hands-on training in Python GUI app development using Tkinter.",
     img: "https://robohash.org/jill",
+    certificateImg: "/assets/certificates/CORE PYTHON TKINTER.jpg"
   },
   {
-    name: "John",
-    username: "@john",
-    body: "I'm at a loss for words. This is amazing. I love it.",
+    name: "Computing Skills for Business",
+    username: "Atingi",
+    body: "Gained practical computing skills for business use cases.",
     img: "https://robohash.org/john",
+    certificateImg: "/assets/certificates/Atigi certificats.jpg"
   },
-  {
-    name: "Alice",
-    username: "@alice",
-    body: "This is hands down the best thing I've experienced. Highly recommend!",
-    img: "https://robohash.org/alice",
-  },
-  {
-    name: "Bob",
-    username: "@bob",
-    body: "Incredible work! The attention to detail is phenomenal.",
+    {
+    name: "HackerRank Certification",
+    username: "C# (Basic)",
+    body: "Verified C# fundamentals – structure, OOP, collections, exception handling, etc.",
     img: "https://robohash.org/bob",
+    link: "https://www.hackerrank.com/certificates/72e0b16d45c2",
+    certificateImg: "/assets/certificates/hackerrank.jpg"
   },
   {
-    name: "Charlie",
-    username: "@charlie",
-    body: "This exceeded all my expectations. Absolutely stunning!",
-    img: "https://robohash.org/charlie",
+    name: "Sindhu",
+    username: "Mentor - Infonix Solutions",
+    body: "Aneena is a dedicated and fast learner with a strong grasp of full-stack web development concepts. She quickly adapts to new tools and delivers clean, functional code.",
+    img: "/assets/mentors/sindhu.jpg"
   },
   {
-    name: "Dave",
-    username: "@dave",
-    body: "Simply breathtaking. The best decision I've made in a while.",
-    img: "https://robohash.org/dave",
-  },
-  {
-    name: "Eve",
-    username: "@eve",
-    body: "So glad I found this. It has changed the game for me.",
-    img: "https://robohash.org/eve",
-  },
+    name: "Jismon Augustine",
+    username: "Mentor - Santhigiri College",
+    body: "She shows excellent problem-solving skills and a great attitude toward collaborative projects. Aneena’s persistence and curiosity make her stand out as a developer.",
+    img: "/assets/mentors/jismon.jpg"
+  }
 ];
